@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+:root {
+
+    --prymary-color: rgb(42, 123, 123);
+    --prymary-color-darker: rgb(28, 20, 20);
+
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+    background-color: var(--prymary-color);
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-weight: bolder ;
+    font-size:xx-large;
+    
+
+}
+.container {
+    max-width: 640px;
+    margin:50px  auto;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+   
+
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 2px solid var(--prymary-color);
+
+}
+
+form button {
+    border: none;
+    background: gold;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font: bolder;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+form button:hover{
+    background: orange;
+}
+
+form button:active{
+    background: green;
+}
+.paragrafo-resultado, .bad{
+    background-color: rgb(56, 148, 56);
+    padding: 10px 20px;
+
+}
+.bad{
+    background: rgb(158, 66, 66);
+}
+.titulo{
+    text-align: center;
+    color: rgb(0, 52, 163);
+}
